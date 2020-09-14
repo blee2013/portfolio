@@ -1,53 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
  <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,intial-scale=1.0" />
-    <link rel="stylesheet" href="assests/css/style.css" />
-    <title>Brittany Lee</title>
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Brittany Lee</title></head>
 
+<body>
 <!-- navigation starts-->
 <header>
-<h1> <a href="/">Brittany Lee</a></h1>
-<nav>
-<!-- Uordedered list element-->
-<ul>
-    <!-- List item element-->
-    <li>
-        <!-- Anchor element-->
-        <a href="#about-me">About Me</a>
-    </li>
-    <li>
-        <a href="#my-work">My Work</a>
-    </li>
-    <li>
-        <a href="#contat-me">Contact Me</a>
-    </li>
-</ul>
-</nav>
+<section class="header">
+    <h1><a href="/">Brittany Lee</a></h1>    
+    <nav>
+    <!-- Unordedered list element-->
+        <ul>
+            <!-- List item element-->
+            <li>
+                    <!-- Anchor element-->
+                <a href="#about-me">About Me</a>
+            </li>
+            <li>
+                <a href="#my-work">My Work</a>
+            </li>
+            <li>
+                <a href="#contact-me">Contact Me</a>
+            </li>
+        </ul>
+    </nav>
 </header>
+</section>
+
 <!-- end navigation section-->
+
+<!-- hero/jumbotron starts-->
 <section class="hero">
+
 <div class="hero-subtitle">
     <p>We can no longer just give people fish or teach them how to fish. <br />
     We must teach our people how to own the pond. <br />
     We must EMPOWER them to own the land that the pond is on.
+    This will BUILD our communities, CHANGE generations and launch legacies
     </p>
-    <h3>This will BUILD our communities, CHANGE generations and launch legacies</h3>
+    
 </div>
 </section>
+<!-- hero/jumbotrob ends -->
 
 <!-- "About Me" Section Starts-->
-<section>
-    <!-- Include Photo here-->
+<section id="about-me" class="bio">
+    <div class="flex-row">
+        <h2 class="section-title primary-border">About Me</h2>
+        <div class="aboutme-img">
+            <img src="assets/images/bLee.jpeg" alt="" />
+        </div>
+    </div>
+    <div class="flex-row">
+        <p>
+            Brittany Lee wakes up to her daily alarm of a small puppy jumping on her face. King T'Challa, her miniature pinscher, is
+            a huge joy and keeps her moving each day often like she has had multiple triple lattes. Brittany thrives on using design
+            work, digital organizing and strategic planning to help organizations bring their vision to the world. She has worked in
+            reentry, Christian ministry, and the restaurant industry. She currently is helping people navigate the overwhelming need
+            of utilizing the virtual world as it continues to exponentially grow at fast speed. Most of her free time is spent with
+            King T'Challa, reading and getting outside. She strongly believes in helping others through empowerment and helping
+            others thrive after trauma. Brittany lives by the motto, "Work Hard, Pray Hard!"
+        </p>
+    </div>
 </section>
 <!-- "About Me" Section Ends-->
     
 <!-- "My Work" Section Starts -->
-<section>
+<section id="my-work" class="work">
+    <div class="flex-row">
+        <h2 class="section-title primary-border">My Work</h2>
+    
+        <div class="mywork-grid-wrapper">
+            <div class="mywork-grid-container">
+        
+                <!-- Headers-->
+                
+                <div class="mywork-item 1">
+                    Horieson
+                    <img src="assets/images/horieson.png" alt="" />
+                </div>
+        
+                <div class="mywork-item 2">
+                    Run Buddy
+                    <img src="assets/images/runbuddy.png" alt="" />
+                </div>
 
+                <div class="mywork-item 3">
+                    EXPO
+                    <img src="assets/images/FREE_POWER2.png" alt="" />
+                </div>
+        
+                <div class="mywork-item 4">
+                    Digital Flyers
+                    <img src="assets/images/coffee.jpg" alt="" />
+                </div>
+        
+                <div class="mywork-item 5">
+                    Ending African American Deaths from Despair
+                    <img src="assets/images/melanin.jpg" alt="" />
+                </div>
+        
+                <div class="mywork-item audacious 6">
+                    B.Audacious
+                    <img src="assets/images/program.jpg" alt="" />
+                </div>
+            </div> <!-- div service-grid-container-->
+    </div> <!-- div service-grid-wrapper-->
 </section>
 <!-- "My Work" Section Ends -->
 
@@ -56,31 +117,36 @@
 <section id="contact-me" class="contact">
 
     <div class="flex-row">
-    <h2 class="section-title secondary-border">Contact Me</h2>
+        <h2 class="section-title secondary-border">Contact Me</h2>
     </div>
 
     <div class="contact-info">
         <div>
-        <h3>Want to schedule a Meeting?</h3>
-        608.561.2230 <br/>
-        <a href="mailto:brittanyleeconsulting@gmail.com">BrittanyLeeConsulting@gmail.com</a>
-        </div> 
+            <h3>Want to schedule a Meeting?</h3>
+            608.561.2230 <br />
+            <a href="mailto:brittanyleeconsulting@gmail.com">BrittanyLeeConsulting@gmail.com</a>
+        </div>
         <dive=>
-            <p>Github</p>
+            <h3>Github</h3>
             <h3>LinkedIn</h3>
-        </dive>  
+            </dive>
     </div>
 
-    <div class="social"></div> 
+    <div class="social"></div>
 </section>
+
 <!-- "Contact Me" Section Ends -->
 
  
 
 <!-- footer starts -->
-<footer>
-    <h2> Made with creativity by Brittany Lee</h2>
-</footer>
+<section id="footer" class="footer">
+    <footer>
+        <h2> Made with Creativity by Brittany Lee</h2>
+    </footer>
+</section>
 <!-- footer ends -->
+
+</body>
 </body>
 </html>
